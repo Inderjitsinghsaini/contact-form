@@ -13,17 +13,12 @@
 </head>
 <body>
     <h2>REACH US</h2>
-    <form action="data/contact.php" method="post">
-        <label for="name">Name</label>
-        <input id="name" type="text" name="name" placeholder="name">
-        <label for="email">Email</label>
-        <input id="email" type="email" name="email" placeholder="email">
-        <label for="subject">Subject</label>
-        <input id="subject" type="text" name="subject" placeholder="subject">
-        <label for="message">Message</label>
-        <textarea id="message" name="message"></textarea>
-    
-        <button type="submit">Submit</button>
+    <form class="contact-form" action="contactform.php" method="post">
+        <input type="text" name="name" Placeholder="Full Name">
+        <input type="text" name="mail" Placeholder="Email">
+        <input type="text" name="subject" Placeholder="Subject">
+        <textarea name="message" Placeholder="Message"></textarea>
+        <button type="submit"  name="submit">Send Mail</button>
     </form>
 </body>
 </html>
